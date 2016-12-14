@@ -1,0 +1,66 @@
+/*
+Theme Name: Alto Theme
+Theme URI: http://leetheme.com/alto
+Author: LeeBros
+Author URI: http://leetheme.com
+Description: A Premium and Responsive WordPress theme, designed for E-Commerce websites
+Version: 1.0.3
+Tags: black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: altotheme
+*/
+
+
+@import url("css/theme.css");
+/*************** ADD CUSTOM CSS HERE  ***************/
+@font-face {
+    font-family: cambria;
+    src: url(css/fonts/CAMBRIA.TTC);
+}
+ul, ol {margin-left: 15px;}
+
+#masthead .header-container .logo-wrapper {width: 280px;}
+.mobile-menu .logo-wrapper {max-width:150px!important;}
+.banner .row .banner-content .banner-inner h1 .small-head {font-size:80%;}
+
+@media (min-width:320px) and (max-width:479px){
+	.banner .row .banner-content .banner-inner h1 {font-family: Georgia, 'Times New Roman','PT Serif' !important; text-align: left; font-size:24px; display:inline-block; width:90%; position:relative;top:35px;}
+	.banner .row .banner-content .banner-inner h5 {font-family: Georgia, Cambria, 'Times New Roman','PT Serif' !important; font-size:14px;display:inline-block; width:60%;   position:relative;top:60px;}
+	.shop-now{position:relative; position:relative;top:65px;}
+}
+
+@media (min-width:480px) and (max-width:767px){
+	.banner .row .banner-content .banner-inner h1 {font-family: Georgia, 'Times New Roman','PT Serif' !important;font-size:26px; display:inline-block; width:90%; position:relative;top:20px;}
+	.banner .row .banner-content .banner-inner h5 {font-family: Georgia, 'Times New Roman','PT Serif' !important;font-size:18px;display:inline-block; width:60%; position:relative;top:80px;}
+	.shop-now{position:relative; position:relative;top:100px;}
+}
+
+@media (max-width:946px) {
+	#masthead {padding:0px;}
+}
+
+@media (  min-width:768px) and (max-width:991px){
+	.banner .row .banner-content .banner-inner h1 {font-family: Georgia, 'Times New Roman','PT Serif' !important;font-size:28px; display:inline-block; width:60%;}
+	.banner .row .banner-content .banner-inner h5 {font-family: Georgia, 'Times New Roman','PT Serif' !important;font-size:20px;display:inline-block; width:50%; position:relative;top:100px;}
+	.shop-now{position:relative; position:relative;top:120px;}
+}
+
+
+@media (min-width:992px) and (max-width:1199px) { 
+	.banner .row .banner-content .banner-inner h1 {font-family: Georgia, 'Times New Roman','PT Serif' !important;font-size:30px; display:inline-block; width:60%; position:relative;top:15px; }
+	.banner .row .banner-content .banner-inner h5 {font-family: Georgia, 'Times New Roman','PT Serif' !important;font-size:22px;display:inline-block; width:90%; position:relative;top:110px;}
+	.shop-now{position:relative; position:relative;top:130px;}
+}
+
+@media (min-width:1200px){
+	.banner .row .banner-content .banner-inner h1 {font-family: Georgia, Cambria, 'Times New Roman','PT Serif' !important; text-align: left; font-size:32px; display:inline-block; width:50%; position:relative;top:35px; left:120px;}        
+	.banner .row .banner-content .banner-inner h5 {	font-family: cambria !important; text-align: left; font-size:20px; display:inline-block; width:70%; position:relative;top:125px; left:120px;}
+	.shop-now{position:relative; position:relative;top:145px; left:120px;}
+}
+
+
+
+
+
+

@@ -1,0 +1,229 @@
+.config{
+    top: 0;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    z-index: 402;
+    position: relative;
+}
+
+.config-options{
+    position: fixed;
+    z-index: 100;
+    height: 100%;
+    overflow-y: auto;
+    float: left;
+    z-index: 500;
+    right: -350px;
+    width: 350px;
+    background-color: #fff;
+    padding: 5px 20px 30px 20px;
+    line-height: 24px;
+    box-shadow: -3px 0 5px -2px rgba(0, 0, 0, 0.14);
+    border-top: 1px solid #eee;
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+}
+
+.show-theme-options{
+    float: left;
+    position: fixed;
+    right: 0;
+    top: 190px;
+    z-index: 500;
+    padding: 10px 11px 10px 10px;
+    font-size: 12px;
+    display: block;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-right: none;
+    border-radius: 3px 0px 0px 3px;
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+}
+
+.show-theme-options i.fa{
+    color: #333 !important;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.config.open .config-options{
+    right: 0;
+}
+
+.config.open .show-theme-options{
+    right: 350px;
+}
+.config span{
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.ss-content {
+    border-bottom: 1px solid #ddd;
+    margin-top: 10px ;
+    margin-bottom: 20px ;
+    padding-bottom: 20px;
+}
+
+.ss-button {
+    border: 1px solid #ddd;
+    color: #000;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 48%;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.ss-button.active, .ss-button:hover{
+    background: #eee;
+}
+
+.ss-color-wrapper div, .ss-images-patterns div{
+    display: inline-block;
+}
+.ss-color, .ss-image{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    opacity: 0.5;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+.ss-color:hover, .ss-image:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.ss-color-1{background: #000;}
+.ss-color-2{background: #ff4f4f;}
+.ss-color-3{background: #59b210;}
+.ss-color-4{background: #ff00aa;}
+.ss-color-5{background: #f96302;}
+.ss-color-6{background: #53b5f6;}
+
+.ss-image-1{background-image:url(images/pattern/bkgd1-icon.png); background-repeat: no-repeat;}
+.ss-image-2{background-image:url(images/pattern/bkgd2-icon.png); background-repeat: no-repeat;}
+.ss-image-3{background-image:url(images/pattern/bkgd3-icon.png); background-repeat: no-repeat;}
+.ss-image-4{background-image:url(images/pattern/bkgd4-icon.png); background-repeat: no-repeat;}
+.ss-image-5{background-image:url(images/pattern/bkgd5-icon.png); background-repeat: no-repeat;}
+.ss-image-6{background-image:url(images/pattern/bkgd6-icon.png); background-repeat: no-repeat;}
+.ss-pattern-1{background-image:url(images/pattern/pattern1.png); background-repeat: no-repeat;}
+.ss-pattern-2{background-image:url(images/pattern/pattern2.png); background-repeat: no-repeat;}
+.ss-pattern-3{background-image:url(images/pattern/pattern3.png); background-repeat: no-repeat;}
+.ss-pattern-4{background-image:url(images/pattern/pattern4.png); background-repeat: no-repeat;}
+.ss-pattern-5{background-image:url(images/pattern/pattern5.png); background-repeat: no-repeat;}
+.ss-pattern-6{background-image:url(images/pattern/pattern6.png); background-repeat: no-repeat;}
+
+a.to_buy_now {
+    background-color: #81c92b;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    display: block;
+    font-size: 13px;
+    font-weight: 900;
+    padding: 12px 10px 8px;
+}
+
+a.to_buy_now:hover {
+    background:  #ff5555 none repeat scroll 0 0;
+    color: #fff;
+}
+
+.ss-demo{
+    margin-top: 20px;
+}
+
+.ss-demo-wrapper {
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.ss-demo-wrapper h3{
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    display: none;
+}
+
+a.hover-overlay .link-opacity{
+    height: 200px;
+    opacity: 0;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+.hover-bg{
+    display: none;
+    -webkit-transition: display 0.3s;
+    -moz-transition: display 0.3s;
+    transition: display 0.3s;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 0;
+    left: -100%;
+}
+
+a.hover-overlay{
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+    display: block;
+    border: 3px solid #eee;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+
+a.hover-overlay:hover .link-opacity{
+    opacity: 0.2;
+    background-color: #333;
+}
+
+a.hover-overlay:hover{
+    border-color: #999;
+}
+
+a.link-demo-home-fashion{background-image: url('images/demo_pages/home-fashion-1.jpg');}
+a.link-demo-home-fashion-2{background-image: url('images/demo_pages/home-fashion-2.jpg');}
+a.link-demo-home-fashion-3{background-image: url('images/demo_pages/home-fashion-3.jpg');}
+a.link-demo-home-fashion-4{background-image: url('images/demo_pages/home-fashion-4.jpg');}
+a.link-demo-home-accessories{background-image: url('images/demo_pages/home-accessories.jpg');}
+a.link-demo-home-jewellry{background-image: url('images/demo_pages/home-jewellry.jpg');}
+a.link-demo-home-digital{background-image: url('images/demo_pages/home-digital.jpg');}
+a.link-demo-home-furniture{background-image: url('images/demo_pages/home-furniture.jpg');}
+a.link-demo-home-handtools{background-image: url('images/demo_pages/home-handtool.jpg');}
+a.link-demo-home-cosmetics{background-image: url('images/demo_pages/home-cosmetics.jpg');}
+a.link-demo-home-kids{background-image: url('images/demo_pages/home-kids.jpg');}
+a.link-demo-home-pets{background-image: url('images/demo_pages/home-pets.jpg');}
+a.link-demo-home-flower{background-image: url('images/demo_pages/home-flower.jpg');}
+
+
+.demo-image-content{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    z-index: 401;
+    background: #fff;
+    overflow: hidden;
+}
+
+.lt-items-demo.large-6{
+    float:left;
+    padding-left: 0;
+    padding-right: 8px;
+}
+
+.lt-items-demo.large-6.lt-dm-right{
+    padding-left: 8px;
+    padding-right: 0;
+}
+
+/*.demo-image-content-detail{
+    min-height: 600px;
+    width: 583px;
+}*/

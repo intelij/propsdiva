@@ -1,0 +1,118 @@
+/* WISTLIST PAGE */
+.wishlist_table{
+    .product-thumbnail{
+        a{
+            img{
+                overflow: hidden;
+                transition:all .2s ease-in-out;
+                -webkit-transition:all .2s ease-in-out;
+                -moz-transition:all .2s ease-in-out;
+                -ms-transition:all .2s ease-in-out;
+                -o-transition:all .2s ease-in-out;
+            }
+        }
+        &:hover img{
+            transform:scale(1.1);
+            -webkit-transform:scale(1.1);
+            -moz-transform:scale(1.1);
+            -ms-transform:scale(1.1);
+            -o-transform:scale(1.1)
+        }
+    }
+    td.product-name a:hover{
+        color: $primary-color;
+    }
+}
+#yith-wcwl-popup-message {
+    background: #FFF;
+    border: 1px solid #ddd;
+    line-height: 50px;
+    padding: 15px;
+    font-size: 120%;
+    position: fixed;
+    text-align: center;
+    top: 40%;
+    left: 45%;
+    z-index: 10000; 
+    margin: 0 auto !important;
+}
+.ajax-loading{
+    display: none !important;
+}
+.product-gallery .yith-wcwl-wishlistexistsbrowse{
+    display: none !important;
+}
+.product-img.images .yith-wcwl-add-to-wishlist{
+    display: none;
+}
+
+// Slide post IN top
+.lt-promotion-news{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    z-index: 98;
+    &.lt-hide{
+        display: none;
+    }
+    .lt-wapper-promotion{
+        position: relative;
+        .lt-content-promotion-news{
+            height: 75px;
+            position: relative;
+	    .lt-content-promotion-custom{
+		height: 100%;
+		width: 100%;
+		table{
+		    height: 100%;
+		    td{
+			text-align: center;
+			font-size: 120%;
+                        a{
+                            color: inherit;
+                        }
+		    }
+		}
+	    }
+            a.lt-a-icon{
+                position: absolute;
+                z-index: 10;
+                top: 0;
+                right: 0;
+                font-size: 180%;
+            }
+            .lt-post-slider{
+                .lt-post-slider-item{
+                    text-align: center;
+                    padding: 30px 0;
+                    a{
+                        font-size: 150%;
+                        font-weight: bold;
+                        color: $primary-color;
+                    }
+                }
+            }
+        }
+    }
+}
+.lt-promotion-show{
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    font-size: 180%;
+    background: #ccc;
+    color: #FFF;
+    display: none;
+    &.lt-show{
+        display: block;
+    }
+}
+.lt-position-relative{
+    position: relative;
+    z-index: 97;
+    background: transparent;
+    height: 0px;
+}
