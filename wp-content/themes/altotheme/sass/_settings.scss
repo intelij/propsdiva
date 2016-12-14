@@ -1,0 +1,112 @@
+$base-font-size: 13px !default;
+$em-base: 13px !default;
+
+@function convert-to-em($value, $base-value: $em-base)  {
+    $value: strip-unit($value) / strip-unit($base-value) * 1em;
+    @if ($value == 0em) { $value: 0; } // Turn 0em into 0
+    @return $value;
+}
+
+@function strip-unit($num) {
+    @return $num / ($num * 0 + 1);
+}
+
+@function em-calc($values, $base-value: $em-base) {
+    $max: length($values); 
+
+    @if $max == 1 { @return convert-to-em(nth($values, 1), $base-value); }
+
+    $emValues: (); 
+    @for $i from 1 through $max {
+        $emValues: append($emValues, convert-to-em(nth($values, $i), $base-value));
+    }
+    @return $emValues;
+}
+
+
+@function emCalc($pxWidth) {
+    @return $pxWidth / $em-base * 1em;
+}
+
+
+$default-float: left;
+
+$body-bg: #fff;
+$body-font-color: #333;
+$body-color-bold: #434343;
+$body-font-family: "Helvetica", Helvetica, Arial, sans-serif;
+$body-font-weight: normal;
+$body-font-style: normal;
+$font-size: 100%;
+$font-smoothing: antialiased;
+$font-pe7-icon: 130%;
+$paragraph-line-height: 1.6 !default;
+$form-label-font-size: emCalc(13px) !default;
+
+$primary-color: #000;
+$secondary-color: #ff7171; 
+$alert-color: #C60F13;
+$success-color: #5CB85C;
+$color_button: #fff;
+$button-border-color: #aaa;
+$button-font-color-alt: #444;
+$color_hover: #000;
+$border :#ececec;
+$border-light: #EEE;
+$gray: #555;
+
+/* Button font */
+$button-font-med:         emCalc(12px) !default;
+$button-font-tny:         emCalc(10px) !default;
+$button-font-sml:         emCalc(12px) !default;
+$button-font-lrg:         emCalc(17px) !default;
+
+//Button size
+$button-med:              emCalc(14px) !default;
+$button-tny:              emCalc(7px) !default;
+$button-sml:              emCalc(12px) !default;
+$button-lrg:              emCalc(16px) !default;
+
+/* Link color */
+$anchor-font-color:         $body-font-color !default;
+$anchor-font-color-hover:   $color_hover !default;
+
+
+$global-radius:     6px !default;
+$global-rounded:    1000px !default;
+$button-radius:     0px !default;
+
+$row-width:     emCalc(1200px) !default;
+$box-width:     emCalc(1200px) !default;
+$column-gutter: emCalc(20px) !default;
+
+$header-font-family:    "Montserrat", Helvetica, Arial, sans-serif !default;
+$header-font-weight:    normal !default;
+$header-font-style:     normal !default;
+$header-font-color:     #000 !default;
+$header-line-height:    1.4 !default;
+$header-top-margin:     .2em !default;
+$header-bottom-margin:  .5em !default;
+$header-text-rendering: optimizeLegibility !default;
+
+$h1-font-size:  emCalc(28px) !default;
+$h2-font-size:  emCalc(26px) !default;
+$h3-font-size:  emCalc(24px) !default;
+$h4-font-size:  emCalc(20px) !default;
+$h5-font-size:  emCalc(17px) !default;
+$h6-font-size:  0.8em !default;
+
+$mobile-screen: emCalc(768px) !default;
+$small-screen:  emCalc(768px) !default;
+$medium-screen: emCalc(1024px) !default;
+$large-screen:  emCalc(1440px) !default;
+
+
+$screen: "only screen" !default;
+$mobile: "only screen and (max-width:"#{$mobile-screen}")" !default;
+$notmobile: "only screen and (min-width:"#{$mobile-screen}")" !default;
+$small: "only screen and (min-width:"#{$small-screen}")" !default;
+$medium: "only screen and (min-width:"#{$medium-screen}")" !default;
+$large: "only screen and (min-width:"#{$large-screen}")" !default;
+$landscape: "only screen and (orientation: landscape)" !default;
+$portrait: "only screen and (orientation: portrait)" !default;

@@ -1,0 +1,322 @@
+# Copyright (C) 2016 Email Subscribers - Group Selector
+# This file is distributed under the same license as the Email Subscribers - Group Selector package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Email Subscribers - Group Selector 1.3.1\n"
+"Report-Msgid-Bugs-To: http://www.storeapps.org/support/contact-us/\n"
+"POT-Creation-Date: 2016-10-27 11:40:38+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: Thu, 27 Oct 2016 17:10:38 +0530\n"
+"Last-Translator: Ratnakar Dubey <ratnakar.dubey@storeapps.org>\n"
+"Language-Team: StoreApps <support@storeapps.org>\n"
+
+#: classes/es-af-messages.php:2
+msgid "Please fill in the required field."
+msgstr ""
+
+#: classes/es-af-messages.php:3
+msgid "Email address seems invalid."
+msgstr ""
+
+#: classes/es-af-messages.php:4
+msgid "Please select the interested groups."
+msgstr ""
+
+#: classes/es-af-messages.php:5
+msgid ""
+"You will receive a confirmation email in few minutes. Please follow the link "
+"in it to confirm your subscription."
+msgstr ""
+
+#: classes/es-af-messages.php:6
+msgid "Subscribed successfully."
+msgstr ""
+
+#: classes/es-af-messages.php:7
+msgid "Email already exist."
+msgstr ""
+
+#: classes/es-af-messages.php:8
+msgid "Oops.. Unexpected error occurred 0."
+msgstr ""
+
+#: classes/es-af-messages.php:9
+msgid "Oops.. Unexpected error occurred 1."
+msgstr ""
+
+#: classes/es-af-messages.php:10
+msgid "Oops.. Unexpected error occurred 2."
+msgstr ""
+
+#: classes/es-af-messages.php:11
+msgid ""
+"Validation errors occurred. Please confirm the fields and submit it again."
+msgstr ""
+
+#: classes/es-af-register.php:64 classes/es-af-register.php:65
+msgid "Advanced Form"
+msgstr ""
+
+#: classes/es-af-register.php:68
+msgid ""
+"<strong>Email Subscribers</strong> plugin should be installed & activated "
+"before activating <strong>Email Subscribers Advanced Form</strong>"
+msgstr ""
+
+#: classes/es-af-register.php:81
+msgctxt "settings-enhanced-select"
+msgid "Enter title for your form."
+msgstr ""
+
+#: classes/es-af-register.php:82
+msgctxt "settings-enhanced-select"
+msgid "Do you want to delete this record?"
+msgstr ""
+
+#: classes/es-af-register.php:192
+msgid ""
+"This is a add-on plugin for Email Subscribers plugin. Please note that this "
+"plugin works only if you have activated Email Subscribers plugin."
+msgstr ""
+
+#: classes/es-af-register.php:307
+msgid "Name"
+msgstr ""
+
+#: classes/es-af-register.php:323
+msgid "Email"
+msgstr ""
+
+#: classes/es-af-register.php:339
+msgid "Interested groups"
+msgstr ""
+
+#: classes/es-af-register.php:362
+msgid "Subscribe"
+msgstr ""
+
+#: classes/es-af-register.php:394
+msgid "Error in your shortcode. Record does not exists for this ID."
+msgstr ""
+
+#: classes/es-af-register.php:502
+msgid "Widget title"
+msgstr ""
+
+#: classes/es-af-register.php:506 page/es-af-add.php:111
+#: page/es-af-edit.php:110
+msgid "Short description"
+msgstr ""
+
+#: classes/es-af-register.php:508
+msgid "Short description about your subscription form."
+msgstr ""
+
+#: classes/es-af-register.php:511
+msgid "Display NAME box"
+msgstr ""
+
+#: classes/es-af-register.php:518
+msgid "Do you want to set NAME box is mandatory box?"
+msgstr ""
+
+#: classes/es-af-register.php:525
+msgid "Display EMAIL box"
+msgstr ""
+
+#: classes/es-af-register.php:531
+msgid "Do you want to set EMAIL box is mandatory box?"
+msgstr ""
+
+#: classes/es-af-register.php:537
+msgid "Display GROUPS options"
+msgstr ""
+
+#: classes/es-af-register.php:545 page/es-af-add.php:155
+#: page/es-af-edit.php:154
+msgid "Do you want to set mandatory option for GROUP box?"
+msgstr ""
+
+#: classes/es-af-register.php:553 page/es-af-add.php:157
+#: page/es-af-edit.php:156
+msgid "Enter GROUP name to display (coma separated value)"
+msgstr ""
+
+#: page/es-af-add.php:8
+msgctxt "es-af-add"
+msgid ""
+"Please note, Email Subscribers Group Selector plugin works only if you have "
+"activated Email Subscribers plugin first."
+msgstr ""
+
+#: page/es-af-add.php:40 page/es-af-add.php:109 page/es-af-edit.php:56
+#: page/es-af-edit.php:108
+msgid "Enter title for your form."
+msgstr ""
+
+#: page/es-af-add.php:59
+msgid "New details was successfully added."
+msgstr ""
+
+#: page/es-af-add.php:63
+msgid "Oops unexpected error occurred."
+msgstr ""
+
+#: page/es-af-add.php:95 page/es-af-edit.php:94
+msgid "Click here"
+msgstr ""
+
+#: page/es-af-add.php:96 page/es-af-edit.php:95
+msgid "to view the details"
+msgstr ""
+
+#: page/es-af-add.php:105
+msgid "Add Form"
+msgstr ""
+
+#: page/es-af-add.php:107 page/es-af-edit.php:106 page/es-af-show.php:63
+#: page/es-af-show.php:71
+msgid "Title"
+msgstr ""
+
+#: page/es-af-add.php:113 page/es-af-edit.php:112
+msgid "Enter short description about your subscription form. "
+msgstr ""
+
+#: page/es-af-add.php:115 page/es-af-edit.php:114
+msgid "NAME box"
+msgstr ""
+
+#: page/es-af-add.php:120 page/es-af-edit.php:119
+msgid "Do you want to display NAME box in the subscription form?"
+msgstr ""
+
+#: page/es-af-add.php:122 page/es-af-add.php:136 page/es-af-add.php:150
+#: page/es-af-edit.php:121 page/es-af-edit.php:135 page/es-af-edit.php:149
+msgid "Mandatory option"
+msgstr ""
+
+#: page/es-af-add.php:127 page/es-af-edit.php:126
+msgid "Do you want to set mandatory option for NAME box?"
+msgstr ""
+
+#: page/es-af-add.php:130 page/es-af-edit.php:129
+msgid "EMAIL box"
+msgstr ""
+
+#: page/es-af-add.php:134 page/es-af-edit.php:133
+msgid "Do you want to display EMAIL box in the subscription form?"
+msgstr ""
+
+#: page/es-af-add.php:140 page/es-af-edit.php:139
+msgid "Do you want to set mandatory option for EMAIL box?"
+msgstr ""
+
+#: page/es-af-add.php:143 page/es-af-edit.php:142
+msgid "GROUP box"
+msgstr ""
+
+#: page/es-af-add.php:148 page/es-af-edit.php:147
+msgid "Do you want to display GROUP box in the subscription form?"
+msgstr ""
+
+#: page/es-af-add.php:180 page/es-af-edit.php:179
+msgid "Existing Groups : "
+msgstr ""
+
+#: page/es-af-add.php:185 page/es-af-edit.php:184
+msgid "Submit"
+msgstr ""
+
+#: page/es-af-add.php:186 page/es-af-edit.php:185
+msgid "Cancel"
+msgstr ""
+
+#: page/es-af-add.php:187 page/es-af-edit.php:186 page/es-af-show.php:115
+msgid "Help"
+msgstr ""
+
+#: page/es-af-edit.php:8
+msgctxt "es-af-edit"
+msgid ""
+"Please note, Email Subscribers Group Selector plugin works only if you have "
+"activated Email Subscribers plugin first."
+msgstr ""
+
+#: page/es-af-edit.php:26 page/es-af-show.php:24
+msgid "Oops, selected details doesnt exist."
+msgstr ""
+
+#: page/es-af-edit.php:75
+msgid "Details was successfully updated."
+msgstr ""
+
+#: page/es-af-edit.php:79
+msgid "Oops, unexpected error occurred."
+msgstr ""
+
+#: page/es-af-edit.php:104
+msgid "Edit Form"
+msgstr ""
+
+#: page/es-af-show.php:6
+msgctxt "es-af-show"
+msgid ""
+"Please note, Email Subscribers Group Selector plugin works only if you have "
+"activated Email Subscribers plugin first."
+msgstr ""
+
+#: page/es-af-show.php:39
+msgid "Selected record was successfully deleted."
+msgstr ""
+
+#: page/es-af-show.php:52
+msgid "Form Details"
+msgstr ""
+
+#: page/es-af-show.php:64 page/es-af-show.php:72
+msgid "Short Code"
+msgstr ""
+
+#: page/es-af-show.php:65 page/es-af-show.php:73
+msgid "ID"
+msgstr ""
+
+#: page/es-af-show.php:89
+msgid "Edit"
+msgstr ""
+
+#: page/es-af-show.php:91
+msgid "Delete"
+msgstr ""
+
+#: page/es-af-show.php:104
+msgid "No records available."
+msgstr ""
+
+#: page/es-af-show.php:114
+msgid "Add New"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Email Subscribers - Group Selector"
+msgstr ""
+
+#. #-#-#-#-#  email-subscribers-advanced-form.pot (Email Subscribers - Group Selector 1.3.1)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  email-subscribers-advanced-form.pot (Email Subscribers - Group Selector 1.3.1)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://www.icegram.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Add-on for Email Subscribers plugin using which you can provide option to "
+"your users to select interested groups in the Subscribers Form."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Icegram"
+msgstr ""

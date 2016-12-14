@@ -1,0 +1,64 @@
+.lt-chosen-icon{cursor: pointer;}
+.lt-tranparent{
+    position: fixed;
+    z-index: 9998;
+    background: #111;
+    opacity: .3;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.lt-list-icons-select{
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 400px;
+    height: 90%;
+    padding: 40px 10px 10px 10px;
+    overflow-y: auto;
+    z-index: 9999;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+.lt-list-icons-select h3{
+    display: block;
+    width: 100%;
+    clear: both;
+    margin: 0 10px;
+    padding-top: 5px;
+}
+.lt-list-icons-select hr{
+    width: 100%;
+    clear: both;
+}
+.lt-fill-icon{
+    float: left;
+    margin: 5px;
+    display: inline-block;
+    /*border: 1px solid #ccc;*/
+    padding: 2px 6px;
+    font-size: 110%;
+}
+.lt-fill-icon.lt-pe7-icon i{
+    font-weight: bold;
+}
+.lt-ico-preview i{
+    font-size: 150%;
+}
+.lt-ico-preview i.pe7-icon{
+    font-weight: bold;
+}
+.lt-remove-icon{
+    display: inline-block;
+    padding: 3px 8px;
+    margin-left: 5px;
+    color: #FF0000;
+}
+.lt-remove-icon:hover{
+    color: #FF0000;
+}
+.hidden-tag{
+    display: none
+}

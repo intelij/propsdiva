@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <product>
+        <name>CHAMPAGNE BOTTLE</name>        
+        <boxarea>
+            <x>170</x>
+            <y>300</y>
+            <width>58</width>
+            <height>58</height>
+        </boxarea>
+		<textcolor>black</textcolor>
+    </product>
+    <product>
+        <name>HEART WINGS</name>       
+        <boxarea>
+            <x>280</x>
+            <y>280</y>
+            <width>114</width>
+            <height>74</height>
+        </boxarea>
+		<textcolor>black</textcolor>		
+    </product>   
+	<product>
+        <name>CAMERA FLORAL</name>        
+        <boxarea>
+            <x>172</x>
+            <y>209</y>
+            <width>114</width>
+            <height>74</height>
+        </boxarea>
+		<textcolor>black</textcolor>		
+    </product>
+	<product>
+        <name>CAMERA TEAL</name>        
+        <boxarea>
+            <x>172</x>
+            <y>209</y>
+            <width>108</width>
+            <height>50</height>
+        </boxarea>
+		<textcolor>black</textcolor>		
+    </product>
+	<product>
+        <name>CAMERA RETRO</name>        
+        <boxarea>
+            <x>172</x>
+            <y>209</y>
+            <width>108</width>
+            <height>50</height>
+        </boxarea>
+		<textcolor>white</textcolor>		
+    </product>
+</products>
+

@@ -1,0 +1,1348 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-06-13 09:14+0700\n"
+"PO-Revision-Date: 2016-06-13 09:15+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/importer/parsers.php:42 admin/importer/parsers.php:72
+#: admin/importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: admin/importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: admin/importer/parsers.php:84 admin/importer/parsers.php:89
+#: admin/importer/parsers.php:279 admin/importer/parsers.php:468
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:135
+#: admin/importer/wordpress-importer.php:144
+#: admin/importer/wordpress-importer.php:195
+#: admin/importer/wordpress-importer.php:199
+#: admin/importer/wordpress-importer.php:208
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:136
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:179
+msgid "All done."
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:179
+msgid "Have fun!"
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:180
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:200
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:216
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:241
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:267
+msgid "Assign Authors"
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:268
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:270
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:280
+msgid "Import Attachments"
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:283
+msgid "Download and import file attachments"
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:300
+msgid "Import author:"
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:311
+msgid "or create new user with login name:"
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:314
+msgid "as a new user:"
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:322
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:324
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:325
+msgid "- Select -"
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:375
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:426
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:466
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:512
+#: admin/importer/wordpress-importer.php:653
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:538
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:560
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:619
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:784
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:791
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:854
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:867
+msgid "Invalid file type"
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:911
+msgid "Remote server did not respond"
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:917
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:924
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:929
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:935
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:1034
+msgid "Import WordPress"
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:1041
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:1056
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: admin/importer/wordpress-importer.php:1057
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: admin/metabox/helpers/cmb_Meta_Box_types.php:250
+msgid "Add Row"
+msgstr ""
+
+#: admin/metabox/helpers/cmb_Meta_Box_types.php:306
+msgid "Remove"
+msgstr ""
+
+#: includes/blogs/latestblog_carousel.php:34
+#: includes/blogs/latestblog_grid.php:41 includes/blogs/latestblog_grid.php:73
+msgid "Continue "
+msgstr ""
+
+#: includes/functions.php:257
+msgid "right now"
+msgstr ""
+
+#: includes/functions.php:259
+msgid " seconds ago"
+msgstr ""
+
+#: includes/functions.php:261
+msgid "about 1 minute ago"
+msgstr ""
+
+#: includes/functions.php:263
+msgid " minutes ago"
+msgstr ""
+
+#: includes/functions.php:265
+msgid "about 1 hour ago"
+msgstr ""
+
+#: includes/functions.php:267
+msgid " hours ago"
+msgstr ""
+
+#: includes/functions.php:269
+msgid "yesterday"
+msgstr ""
+
+#: includes/functions.php:271
+msgid " days ago"
+msgstr ""
+
+#: includes/functions.php:273
+msgid "over a year ago"
+msgstr ""
+
+#: includes/shortcodes/lt_others.php:123
+msgid "on Instagram"
+msgstr ""
+
+#: includes/shortcodes/lt_others.php:130
+msgid "Please active Instagram Widget plugin to use this featured"
+msgstr ""
+
+#: includes/shortcodes/lt_share.php:25
+msgid "Share on Facebook"
+msgstr ""
+
+#: includes/shortcodes/lt_share.php:31
+msgid "Share on Twitter"
+msgstr ""
+
+#: includes/shortcodes/lt_share.php:37
+msgid "Email to a Friend"
+msgstr ""
+
+#: includes/shortcodes/lt_share.php:43
+msgid "Pin on Pinterest"
+msgstr ""
+
+#: includes/shortcodes/lt_share.php:49
+msgid "Share on Google+"
+msgstr ""
+
+#: includes/shortcodes/lt_share.php:89
+msgid "Follow us on Facebook"
+msgstr ""
+
+#: includes/shortcodes/lt_share.php:92
+msgid "Follow us on Twitter"
+msgstr ""
+
+#: includes/shortcodes/lt_share.php:95
+msgid "Send us an email"
+msgstr ""
+
+#: includes/shortcodes/lt_share.php:98
+msgid "Follow us on Pinterest"
+msgstr ""
+
+#: includes/shortcodes/lt_share.php:101
+msgid "Follow us on Google+"
+msgstr ""
+
+#: includes/shortcodes/lt_share.php:104
+msgid "Follow us on Instagram"
+msgstr ""
+
+#: includes/shortcodes/lt_share.php:107
+msgid "Subscribe to RSS"
+msgstr ""
+
+#: includes/shortcodes/lt_share.php:110
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/shortcodes/lt_share.php:113
+msgid "YouTube"
+msgstr ""
+
+#: includes/shortcodes/lt_share.php:116
+msgid "Flickr"
+msgstr ""
+
+#: includes/shortcodes/lt_team_members.php:94
+msgid "Email:"
+msgstr ""
+
+#: includes/vc.php:216
+msgid "Same window"
+msgstr ""
+
+#: includes/vc.php:216
+msgid "New window"
+msgstr ""
+
+#: includes/vc.php:219
+msgid "CSS Animation"
+msgstr ""
+
+#: includes/vc.php:223
+msgid "No"
+msgstr ""
+
+#: includes/vc.php:224
+msgid "Top to bottom"
+msgstr ""
+
+#: includes/vc.php:225
+msgid "Bottom to top"
+msgstr ""
+
+#: includes/vc.php:226
+msgid "Left to right"
+msgstr ""
+
+#: includes/vc.php:227
+msgid "Right to left"
+msgstr ""
+
+#: includes/vc.php:228
+msgid "Appear from center"
+msgstr ""
+
+#: includes/vc.php:230
+msgid ""
+"Select animation type if you want this element to be animated when it enters "
+"into the browsers viewport. Note: Works only in modern browsers."
+msgstr ""
+
+#: includes/vc.php:255
+msgid "Fullwidth?"
+msgstr ""
+
+#: includes/vc.php:264
+msgid "Parallax"
+msgstr ""
+
+#: includes/vc.php:273
+msgid "Parallax speed"
+msgstr ""
+
+#: includes/vc.php:280
+msgid "Enter parallax speed ratio (Note: Default value is 0.6, min value is 0)"
+msgstr ""
+
+#: includes/vc.php:286
+msgid "Tab title align"
+msgstr ""
+
+#: includes/vc.php:289
+msgid "Align Left"
+msgstr ""
+
+#: includes/vc.php:290
+msgid "Align Center"
+msgstr ""
+
+#: includes/vc.php:291
+msgid "Align Right"
+msgstr ""
+
+#: includes/vc.php:299
+msgid "Effect"
+msgstr ""
+
+#: includes/vc.php:339
+msgid "Duration"
+msgstr ""
+
+#: includes/vc.php:346
+msgid "Delay"
+msgstr ""
+
+#: includes/vc.php:356
+msgid "Lee Slider"
+msgstr ""
+
+#: includes/vc.php:364 includes/vc.php:681 includes/vc.php:989
+#: includes/vc.php:1210
+msgid "Title"
+msgstr ""
+
+#: includes/vc.php:372 includes/vc.php:392 includes/vc.php:860
+#: includes/vc.php:896
+msgid "Left"
+msgstr ""
+
+#: includes/vc.php:373 includes/vc.php:391 includes/vc.php:861
+#: includes/vc.php:897
+msgid "Center"
+msgstr ""
+
+#: includes/vc.php:378
+msgid "Display Bullets"
+msgstr ""
+
+#: includes/vc.php:381 includes/vc.php:401 includes/vc.php:452
+msgid "Enable"
+msgstr ""
+
+#: includes/vc.php:382 includes/vc.php:402 includes/vc.php:451
+msgid "Disable"
+msgstr ""
+
+#: includes/vc.php:388
+msgid "Bullets type"
+msgstr ""
+
+#: includes/vc.php:398
+msgid "Display arrows"
+msgstr ""
+
+#: includes/vc.php:407
+msgid "Number columns"
+msgstr ""
+
+#: includes/vc.php:410 includes/vc.php:424 includes/vc.php:438
+msgid "1"
+msgstr ""
+
+#: includes/vc.php:411 includes/vc.php:425 includes/vc.php:439
+msgid "2"
+msgstr ""
+
+#: includes/vc.php:412 includes/vc.php:426 includes/vc.php:440
+msgid "3"
+msgstr ""
+
+#: includes/vc.php:413 includes/vc.php:427 includes/vc.php:441
+msgid "4"
+msgstr ""
+
+#: includes/vc.php:414 includes/vc.php:428 includes/vc.php:442
+msgid "5"
+msgstr ""
+
+#: includes/vc.php:415 includes/vc.php:429 includes/vc.php:443
+msgid "6"
+msgstr ""
+
+#: includes/vc.php:420
+msgid "Responsive item numbers for mobile"
+msgstr ""
+
+#: includes/vc.php:434
+msgid "Responsive item numbers for tablet"
+msgstr ""
+
+#: includes/vc.php:448
+msgid "Auto Play"
+msgstr ""
+
+#: includes/vc.php:457
+msgid "Pagination Speed"
+msgstr ""
+
+#: includes/vc.php:461
+msgid "0.4s"
+msgstr ""
+
+#: includes/vc.php:462
+msgid "0.6s"
+msgstr ""
+
+#: includes/vc.php:463
+msgid "0.8s"
+msgstr ""
+
+#: includes/vc.php:464
+msgid "1s"
+msgstr ""
+
+#: includes/vc.php:465
+msgid "1.2s"
+msgstr ""
+
+#: includes/vc.php:466
+msgid "1.4s"
+msgstr ""
+
+#: includes/vc.php:467
+msgid "1.6s"
+msgstr ""
+
+#: includes/vc.php:472 includes/vc.php:542 includes/vc.php:663
+#: includes/vc.php:718 includes/vc.php:750 includes/vc.php:1111
+msgid "Extra class name"
+msgstr ""
+
+#: includes/vc.php:474 includes/vc.php:544 includes/vc.php:665
+#: includes/vc.php:720 includes/vc.php:752 includes/vc.php:971
+#: includes/vc.php:1113 includes/vc.php:1327
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: includes/vc.php:485
+msgid "Lee Products"
+msgstr ""
+
+#: includes/vc.php:488 includes/vc.php:556 includes/vc.php:677
+msgid "Lee Theme"
+msgstr ""
+
+#: includes/vc.php:492
+msgid "Type"
+msgstr ""
+
+#: includes/vc.php:504
+msgid "Select type product to show."
+msgstr ""
+
+#: includes/vc.php:508 includes/vc.php:1140
+msgid "Style"
+msgstr ""
+
+#: includes/vc.php:520
+msgid "Number of products to show"
+msgstr ""
+
+#: includes/vc.php:526 includes/vc.php:710
+msgid "Columns number"
+msgstr ""
+
+#: includes/vc.php:531 includes/vc.php:693 includes/vc.php:714
+msgid "Select columns count."
+msgstr ""
+
+#: includes/vc.php:535
+msgid "Product Category"
+msgstr ""
+
+#: includes/vc.php:538
+msgid "Input the category name here."
+msgstr ""
+
+#: includes/vc.php:553
+msgid "Lee Product Deal"
+msgstr ""
+
+#: includes/vc.php:560
+msgid "Select a product deal"
+msgstr ""
+
+#: includes/vc.php:568 includes/vc.php:686
+msgid "Layout"
+msgstr ""
+
+#: includes/vc.php:578
+msgid "Product deal Thumbnail Position"
+msgstr ""
+
+#: includes/vc.php:589
+msgid "Display products grid"
+msgstr ""
+
+#: includes/vc.php:601
+msgid "Type show for grid"
+msgstr ""
+
+#: includes/vc.php:614
+msgid "Select type products grid to show."
+msgstr ""
+
+#: includes/vc.php:620 includes/vc.php:830
+msgid "Banner Image"
+msgstr ""
+
+#: includes/vc.php:626
+msgid "Height Banner Image"
+msgstr ""
+
+#: includes/vc.php:632
+msgid "Block content margin top (%)"
+msgstr ""
+
+#: includes/vc.php:638
+msgid "Block content margin left (%)"
+msgstr ""
+
+#: includes/vc.php:644
+msgid "Block content margin right (%) only when margin left as 0 or empty"
+msgstr ""
+
+#: includes/vc.php:650
+msgid "Text position"
+msgstr ""
+
+#: includes/vc.php:658
+msgid "Select align for Text."
+msgstr ""
+
+#: includes/vc.php:674
+msgid "Lee Brands"
+msgstr ""
+
+#: includes/vc.php:697
+msgid "Images"
+msgstr ""
+
+#: includes/vc.php:700
+msgid "Select images from media library."
+msgstr ""
+
+#: includes/vc.php:704
+msgid "Custom links"
+msgstr ""
+
+#: includes/vc.php:706
+msgid ""
+"Enter links for each slide here. Divide links with linebreaks (Enter) . "
+msgstr ""
+
+#: includes/vc.php:738
+msgid "Padding"
+msgstr ""
+
+#: includes/vc.php:741
+msgid "10px"
+msgstr ""
+
+#: includes/vc.php:742
+msgid "15px"
+msgstr ""
+
+#: includes/vc.php:743
+msgid "20px"
+msgstr ""
+
+#: includes/vc.php:744
+msgid "30px"
+msgstr ""
+
+#: includes/vc.php:746
+msgid "Distance elements grid"
+msgstr ""
+
+#: includes/vc.php:774
+msgid "Row padding"
+msgstr ""
+
+#: includes/vc.php:776
+msgid "Insert a style row padding."
+msgstr ""
+
+#: includes/vc.php:796
+msgid "Column"
+msgstr ""
+
+#: includes/vc.php:799
+msgid "1 Column"
+msgstr ""
+
+#: includes/vc.php:800
+msgid "2 Columns"
+msgstr ""
+
+#: includes/vc.php:801
+msgid "3 Columns"
+msgstr ""
+
+#: includes/vc.php:802
+msgid "4 Columns"
+msgstr ""
+
+#: includes/vc.php:803
+msgid "5 Columns"
+msgstr ""
+
+#: includes/vc.php:804
+msgid "6 Columns"
+msgstr ""
+
+#: includes/vc.php:805
+msgid "7 Columns"
+msgstr ""
+
+#: includes/vc.php:806
+msgid "8 Columns"
+msgstr ""
+
+#: includes/vc.php:807
+msgid "9 Columns"
+msgstr ""
+
+#: includes/vc.php:808
+msgid "10 Columns"
+msgstr ""
+
+#: includes/vc.php:809
+msgid "11 Columns"
+msgstr ""
+
+#: includes/vc.php:810
+msgid "12 Columns"
+msgstr ""
+
+#: includes/vc.php:835
+msgid "Banner Height"
+msgstr ""
+
+#: includes/vc.php:839
+msgid "Banner height"
+msgstr ""
+
+#: includes/vc.php:843
+msgid "Link"
+msgstr ""
+
+#: includes/vc.php:849
+msgid "Content width (%)"
+msgstr ""
+
+#: includes/vc.php:856
+msgid "Horizontal alignment"
+msgstr ""
+
+#: includes/vc.php:862 includes/vc.php:898
+msgid "Right"
+msgstr ""
+
+#: includes/vc.php:867
+msgid "Move Horizontal a distance (%)"
+msgstr ""
+
+#: includes/vc.php:881
+msgid "Vertical alignment"
+msgstr ""
+
+#: includes/vc.php:885
+msgid "Top"
+msgstr ""
+
+#: includes/vc.php:886
+msgid "Middle"
+msgstr ""
+
+#: includes/vc.php:887
+msgid "Bottom"
+msgstr ""
+
+#: includes/vc.php:892
+msgid "Text alignment"
+msgstr ""
+
+#: includes/vc.php:907
+msgid "Black"
+msgstr ""
+
+#: includes/vc.php:908
+msgid "White"
+msgstr ""
+
+#: includes/vc.php:922
+msgid "Effect banner content"
+msgstr ""
+
+#: includes/vc.php:925
+msgid "Select initial loading animation for text content."
+msgstr ""
+
+#: includes/vc.php:929
+msgid "Effect banner hover."
+msgstr ""
+
+#: includes/vc.php:932 includes/vc.php:945 includes/vc.php:962
+#: includes/vc.php:1103
+msgid "None"
+msgstr ""
+
+#: includes/vc.php:933
+msgid "Zoom"
+msgstr ""
+
+#: includes/vc.php:934
+msgid "Zoom Out"
+msgstr ""
+
+#: includes/vc.php:935
+msgid "Fade"
+msgstr ""
+
+#: includes/vc.php:936 includes/vc.php:1238
+msgid "Carousel"
+msgstr ""
+
+#: includes/vc.php:937
+msgid "Parallax Lax"
+msgstr ""
+
+#: includes/vc.php:942
+msgid "Animation delay"
+msgstr ""
+
+#: includes/vc.php:946
+msgid "100ms"
+msgstr ""
+
+#: includes/vc.php:947
+msgid "200ms"
+msgstr ""
+
+#: includes/vc.php:948
+msgid "300ms"
+msgstr ""
+
+#: includes/vc.php:949
+msgid "400ms"
+msgstr ""
+
+#: includes/vc.php:950
+msgid "500ms"
+msgstr ""
+
+#: includes/vc.php:951
+msgid "600ms"
+msgstr ""
+
+#: includes/vc.php:952
+msgid "700ms"
+msgstr ""
+
+#: includes/vc.php:953
+msgid "800ms"
+msgstr ""
+
+#: includes/vc.php:955
+msgid "Delay time animation display text content"
+msgstr ""
+
+#: includes/vc.php:959
+msgid "Seam icon"
+msgstr ""
+
+#: includes/vc.php:963
+msgid "Left alignment"
+msgstr ""
+
+#: includes/vc.php:964
+msgid "Right alignment"
+msgstr ""
+
+#: includes/vc.php:969 includes/vc.php:1325 includes/vc.php:1427
+#: includes/vc.php:1465
+msgid "Extra Class"
+msgstr ""
+
+#: includes/vc.php:994
+msgid "Categories number for display"
+msgstr ""
+
+#: includes/vc.php:1000
+msgid "Parent level"
+msgstr ""
+
+#: includes/vc.php:1010
+msgid "Products Columns"
+msgstr ""
+
+#: includes/vc.php:1026
+msgid "Lee Testimonials"
+msgstr ""
+
+#: includes/vc.php:1033
+msgid "Testimonials avatar image"
+msgstr ""
+
+#: includes/vc.php:1035
+msgid "Choose Avatar image."
+msgstr ""
+
+#: includes/vc.php:1039
+msgid "Testimonials name"
+msgstr ""
+
+#: includes/vc.php:1041
+msgid "Enter name."
+msgstr ""
+
+#: includes/vc.php:1045
+msgid "Testimonials job"
+msgstr ""
+
+#: includes/vc.php:1047
+msgid "Enter job."
+msgstr ""
+
+#: includes/vc.php:1051
+msgid "Testimonials text color"
+msgstr ""
+
+#: includes/vc.php:1054
+msgid "Choose text color."
+msgstr ""
+
+#: includes/vc.php:1062
+msgid "Enter client content say."
+msgstr ""
+
+#: includes/vc.php:1073
+msgid "Lee Service Box"
+msgstr ""
+
+#: includes/vc.php:1080
+msgid "Service title"
+msgstr ""
+
+#: includes/vc.php:1083
+msgid "Enter service title."
+msgstr ""
+
+#: includes/vc.php:1087
+msgid "Service Description"
+msgstr ""
+
+#: includes/vc.php:1089
+msgid "Enter service Description."
+msgstr ""
+
+#: includes/vc.php:1093
+msgid "Icon"
+msgstr ""
+
+#: includes/vc.php:1095
+msgid ""
+"Enter icon class name. You can find it at http://themes-pixeden.com/font-"
+"demos/7-stroke/"
+msgstr ""
+
+#: includes/vc.php:1101
+msgid "Select effect when hover service icon"
+msgstr ""
+
+#: includes/vc.php:1104
+msgid "Fly"
+msgstr ""
+
+#: includes/vc.php:1105
+msgid "Buzz"
+msgstr ""
+
+#: includes/vc.php:1106
+msgid "Rotate"
+msgstr ""
+
+#: includes/vc.php:1123
+msgid "Lee Share"
+msgstr ""
+
+#: includes/vc.php:1131
+msgid "Size"
+msgstr ""
+
+#: includes/vc.php:1134 includes/vc.php:1143
+msgid "Normal"
+msgstr ""
+
+#: includes/vc.php:1135
+msgid "Large"
+msgstr ""
+
+#: includes/vc.php:1144
+msgid "Light"
+msgstr ""
+
+#: includes/vc.php:1155
+msgid "Lee Google Map"
+msgstr ""
+
+#: includes/vc.php:1162
+msgid "Lat"
+msgstr ""
+
+#: includes/vc.php:1167
+msgid "Long"
+msgstr ""
+
+#: includes/vc.php:1172
+msgid "Height"
+msgstr ""
+
+#: includes/vc.php:1178
+msgid "Color"
+msgstr ""
+
+#: includes/vc.php:1186
+msgid "ROADMAP"
+msgstr ""
+
+#: includes/vc.php:1187
+msgid "SATELLITE"
+msgstr ""
+
+#: includes/vc.php:1188
+msgid "TERRAIN"
+msgstr ""
+
+#: includes/vc.php:1204
+msgid "Lee Menu Vertical"
+msgstr ""
+
+#: includes/vc.php:1215
+msgid "Menu"
+msgstr ""
+
+#: includes/vc.php:1218
+msgid "Select Menu."
+msgstr ""
+
+#: includes/vc.php:1228
+msgid "Lee Latest posts"
+msgstr ""
+
+#: includes/vc.php:1239
+msgid "Grid"
+msgstr ""
+
+#: includes/vc.php:1244
+msgid "Post number"
+msgstr ""
+
+#: includes/vc.php:1250
+msgid "Categories"
+msgstr ""
+
+#: includes/vc.php:1253
+msgid "Input categories slug Divide links with \",\""
+msgstr ""
+
+#: includes/vc.php:1272
+msgid "Member name"
+msgstr ""
+
+#: includes/vc.php:1277
+msgid "Member email"
+msgstr ""
+
+#: includes/vc.php:1282
+msgid "Position"
+msgstr ""
+
+#: includes/vc.php:1287
+msgid "Avatar"
+msgstr ""
+
+#: includes/vc.php:1292
+msgid "Image size"
+msgstr ""
+
+#: includes/vc.php:1294
+msgid "Enter image size. Example in pixels: 200x100 (Width x Height)."
+msgstr ""
+
+#: includes/vc.php:1299
+msgid "Member information"
+msgstr ""
+
+#: includes/vc.php:1301
+msgid "Member description"
+msgstr ""
+
+#: includes/vc.php:1410
+msgid "Lee Instagram"
+msgstr ""
+
+#: includes/vc.php:1416
+msgid "User name"
+msgstr ""
+
+#: includes/vc.php:1422
+msgid "Picture numbers"
+msgstr ""
+
+#: includes/vc.php:1438
+msgid "Lee Contact Footer"
+msgstr ""
+
+#: includes/vc.php:1444
+msgid "Contact Logo"
+msgstr ""
+
+#: includes/vc.php:1450
+msgid "Address"
+msgstr ""
+
+#: includes/vc.php:1455
+msgid "Phone"
+msgstr ""
+
+#: includes/vc.php:1460
+msgid "Email"
+msgstr ""
+
+#: includes/widgets/lt_flickr.php:18
+msgid "LT Flickr Photos"
+msgstr ""
+
+#: includes/widgets/lt_flickr.php:62 includes/widgets/lt_recent-posts.php:91
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/lt_flickr.php:67
+msgid "Flickr ID"
+msgstr ""
+
+#: includes/widgets/lt_flickr.php:70
+msgid "To find your flickID visit "
+msgstr ""
+
+#: includes/widgets/lt_flickr.php:74
+msgid "Number of photos to show:"
+msgstr ""
+
+#: includes/widgets/lt_recent-posts.php:15
+msgid "A widget that displays recent posts "
+msgstr ""
+
+#: includes/widgets/lt_recent-posts.php:19
+msgid "LT Recent Posts"
+msgstr ""
+
+#: includes/widgets/lt_recent-posts.php:39
+msgid "Recent Posts"
+msgstr ""
+
+#: includes/widgets/lt_recent-posts.php:94
+msgid "Number of posts to show:"
+msgstr ""
+
+#: post-type/footer.php:4 post-type/footer.php:5
+msgid "Footer"
+msgstr ""
+
+#: post-type/footer.php:6 post-type/footer.php:7
+msgid "Add New Footer"
+msgstr ""
+
+#: post-type/footer.php:8
+msgid "Edit Footer"
+msgstr ""
+
+#: post-type/footer.php:9
+msgid "New Footer"
+msgstr ""
+
+#: post-type/footer.php:10
+msgid "View Footer"
+msgstr ""
+
+#: post-type/footer.php:11
+msgid "Search Footers"
+msgstr ""
+
+#: post-type/footer.php:12
+msgid "No Footers found"
+msgstr ""
+
+#: post-type/footer.php:13
+msgid "No Footers found in Trash"
+msgstr ""
+
+#: post-type/footer.php:14
+msgid "Parent Footer:"
+msgstr ""
+
+#: post-type/footer.php:15
+msgid "Footers"
+msgstr ""
+
+#: post-type/portfolio.php:14
+msgid "Add New Project"
+msgstr ""
+
+#: post-type/portfolio.php:15
+msgid "Edit Project"
+msgstr ""
+
+#: post-type/portfolio.php:16
+msgid "New Project"
+msgstr ""
+
+#: post-type/portfolio.php:17
+msgid "View Project"
+msgstr ""
+
+#: post-type/portfolio.php:18
+msgid "Search Projects"
+msgstr ""
+
+#: post-type/portfolio.php:19
+msgid "No projects found"
+msgstr ""
+
+#: post-type/portfolio.php:20
+msgid "No projects found in Trash"
+msgstr ""
+
+#: post-type/portfolio.php:46 post-type/portfolio.php:59
+msgid "Search Types"
+msgstr ""
+
+#: post-type/portfolio.php:47
+msgid "All Tags"
+msgstr ""
+
+#: post-type/portfolio.php:48
+msgid "Parent Tag"
+msgstr ""
+
+#: post-type/portfolio.php:49
+msgid "Parent Tag:"
+msgstr ""
+
+#: post-type/portfolio.php:50
+msgid "Edit Tags"
+msgstr ""
+
+#: post-type/portfolio.php:51
+msgid "Update Tag"
+msgstr ""
+
+#: post-type/portfolio.php:52
+msgid "Add New Tag"
+msgstr ""
+
+#: post-type/portfolio.php:53
+msgid "New Tag Name"
+msgstr ""
+
+#: post-type/portfolio.php:60
+msgid "All Categories"
+msgstr ""
+
+#: post-type/portfolio.php:61
+msgid "Parent Category"
+msgstr ""
+
+#: post-type/portfolio.php:62
+msgid "Parent Category:"
+msgstr ""
+
+#: post-type/portfolio.php:63
+msgid "Edit Categories"
+msgstr ""
+
+#: post-type/portfolio.php:64
+msgid "Update Category"
+msgstr ""
+
+#: post-type/portfolio.php:65
+msgid "Add New Category"
+msgstr ""
+
+#: post-type/portfolio.php:66
+msgid "New Category Name"
+msgstr ""
+
+#: post-type/portfolio.php:192
+msgid "ALL PORTFOLIOS LOADED"
+msgstr ""
+
+#: post-type/portfolio.php:192
+msgid "LOAD MORE"
+msgstr ""
+
+#: post-type/portfolio.php:224
+msgid "Prev"
+msgstr ""
+
+#: post-type/portfolio.php:233
+msgid "Next"
+msgstr ""
+
+#: post-type/portfolio/portfolio-content.php:43
+#: post-type/portfolio/portfolio-recent.php:23
+msgid "View large"
+msgstr ""
+
+#: post-type/portfolio/portfolio-content.php:45
+#: post-type/portfolio/portfolio-recent.php:25
+msgid "More details"
+msgstr ""

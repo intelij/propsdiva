@@ -1,0 +1,10 @@
+{"products":[
+    {"pid":10998,"name":"CHAMPAGNE BOTTLE", "boxarea":{"x":170, "y":300,"width":58,"height":58},  "textcolor":"white","preview":"2016/09/WP01_champagnebottleweb-01.png"},
+    
+    {"name":"CAMERA FLORAL", "boxarea":{"x":165, "y":215,"width":114,"height":74},  "textcolor":"black"},
+    {"name":"CAMERA TEAL", "boxarea":{"x":172, "y":209,"width":108,"height":50},  "textcolor":"black"},
+    {"name":"CAMERA RETRO", "boxarea":{"x":172, "y":209,"width":108,"height":50},  "textcolor":"white"}
+    
+]}
+
+

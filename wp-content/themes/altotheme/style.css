@@ -1,0 +1,192 @@
+/*
+Theme Name: Alto Theme
+Theme URI: http://leetheme.com/alto
+Author: LeeBros
+Author URI: http://leetheme.com
+Description: A Premium and Responsive WordPress theme, designed for E-Commerce websites
+Version: 1.0.3
+Tags: black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: altotheme
+*/
+
+@import url("css/theme.css");
+/*************** ADD CUSTOM CSS HERE  ***************/
+
+@font-face {
+    font-family: cambria;
+    src: url(css/fonts/CAMBRIA.TTC);
+}
+
+
+
+
+.banner .row .banner-content .banner-inner h1 .small-head {font-size:80%;}
+.group-blogs .blog_info .blog_title a{font-size:16px;   }
+.group-blogs .blog_info .blog_title h2{line-height:18px; }
+#masthead .header-container .logo-wrapper {width: 280px;}
+.mobile-menu .logo-wrapper {max-width:150px!important;}
+ul, ol {margin-left: 15px;}
+
+footer > div:nth-of-type(3) {
+	background: #f7f7f7;
+    padding-top: 40px;
+    margin-top: 25px;
+}
+
+.postListing .vc_gitem-post-data-source-post_excerpt {
+	display: none;
+}
+
+.subcriberES #es_af_txt_em {
+	border: none;
+	border-bottom: 1px solid #CCC;
+	text-align: center;
+	background-color: #FFF !important;
+}
+
+.subcriberES #es_af_btn {
+	border: none;
+	color: #FFF;
+	margin-bottom: 20px;
+}
+
+.subcriberES .esField {
+	display: none;
+}
+
+body .my-mfp-slide-bottom {
+	display: none;
+}
+
+body.page-id-9243 .my-mfp-slide-bottom {
+	display: block;
+}
+
+#wcmd_modal form.wcmd_email > div.wcmd-fields:first-child,
+#wcmd_modal form.wcmd_email div.wcmd-btn-cont {
+	float: left;
+}
+
+#wcmd_modal form.wcmd_email div.wcmd-btn-cont button.wcmd-btn {
+	margin-top: 5px;
+    line-height: 45px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#ninja_forms_form_9_cont {
+	display: none;
+}
+
+.mailchimpDiscountWidget {
+	padding: 10px 0 20px;
+}
+
+.mailchimpDiscountWidget .wcmd-loading {
+	background-size: 75px;
+}
+
+.mailchimpDiscountWidget .wcmd-btn {
+	border: 1px solid #DDD;
+	font-size: 14px;
+	height: 35px;
+}
+
+.mailchimpDiscountWidget .wcmd-fields input {
+    margin: 0px auto !important;
+    height: 40px;
+    font-size: 14px;
+}
+
+@media only screen and (min-width: 992px) {
+	.postListing .large-3:nth-child(even) {
+	    position: relative;
+	    width: 20%;
+	}
+	.postListing .large-3:nth-child(odd) {
+	    position: relative;
+	    width: 30%;
+	}
+}
+
+@media (max-width: 991px) {
+	.support_decription .large-4 .wpb_single_image {
+		margin-bottom: 25px !important;
+	}
+}
+
+@media (max-width: 767px) {
+	.support_decription .large-4 .wpb_single_image {
+		margin-bottom: 10px !important;
+	}
+}
+
+@media (min-width:320px) and (max-width:479px){
+
+	.banner .row .banner-content .banner-inner h1 {font-family: Georgia, 'Times New Roman','PT Serif' !important; text-align: left; font-size:24px; display:inline-block; width:90%; position:relative;top:35px;}
+
+	.banner .row .banner-content .banner-inner h5 {font-family: Georgia, Cambria, 'Times New Roman','PT Serif' !important; font-size:14px;display:inline-block; width:60%;   position:relative;top:60px;}
+
+	.shop-now{position:relative; position:relative;top:65px;}
+
+}
+
+
+
+@media (min-width:480px) and (max-width:767px){
+
+	.banner .row .banner-content .banner-inner h1 {font-family: Georgia, 'Times New Roman','PT Serif' !important;font-size:26px; display:inline-block; width:90%; position:relative;top:20px;}
+
+	.banner .row .banner-content .banner-inner h5 {font-family: Georgia, 'Times New Roman','PT Serif' !important;font-size:18px;display:inline-block; width:60%; position:relative;top:80px;}
+
+	.shop-now{position:relative; position:relative;top:100px;}
+
+}
+
+
+
+@media (max-width:946px) {
+
+	#masthead {padding:0px;}
+
+}
+
+
+
+@media (  min-width:768px) and (max-width:991px){
+
+	.banner .row .banner-content .banner-inner h1 {font-family: Georgia, 'Times New Roman','PT Serif' !important;font-size:28px; display:inline-block; width:60%;}
+
+	.banner .row .banner-content .banner-inner h5 {font-family: Georgia, 'Times New Roman','PT Serif' !important;font-size:20px;display:inline-block; width:50%; position:relative;top:100px;}
+
+	.shop-now{position:relative; position:relative;top:120px;}
+
+}
+
+
+
+
+
+@media (min-width:992px) and (max-width:1199px) { 
+
+	.banner .row .banner-content .banner-inner h1 {font-family: Georgia, 'Times New Roman','PT Serif' !important;font-size:30px; display:inline-block; width:60%; position:relative;top:15px; }
+
+	.banner .row .banner-content .banner-inner h5 {font-family: Georgia, 'Times New Roman','PT Serif' !important;font-size:22px;display:inline-block; width:90%; position:relative;top:110px;}
+
+	.shop-now{position:relative; position:relative;top:130px;}
+
+}
+
+
+
+@media (min-width:1200px){
+
+	.banner .row .banner-content .banner-inner h1 {font-family: Georgia, Cambria, 'Times New Roman','PT Serif' !important; text-align: left; font-size:32px; display:inline-block; width:50%; position:relative;top:35px; left:120px;}        
+
+	.banner .row .banner-content .banner-inner h5 {	font-family: cambria !important; text-align: left; font-size:20px; display:inline-block; width:70%; position:relative;top:125px; left:120px;}
+
+	.shop-now{position:relative; position:relative;top:145px; left:120px;}
+
+}
